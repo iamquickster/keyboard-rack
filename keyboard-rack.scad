@@ -8,6 +8,7 @@ echo(keyboard_tray);
         cube(keyboard_tray);
         translate([ridgeoffset,ridgeoffset,keyboard_tray[2]-keyboard_vit[2]+1]) cube(keyboard_vit);
     }
+    
 }
 
 keyboard_rack(keyboard_vit, ridgeoffset);
